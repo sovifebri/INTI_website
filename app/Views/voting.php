@@ -43,8 +43,10 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                         <li class="nav-item">
+                           <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
+                        </li>  
                         <button class="dropbtn">Products</button>
                            <div class="dropdown-content">
                               <a class="nav-link" href="<?= base_url('manufacture')?>">Manufacture</a>
@@ -53,7 +55,7 @@
                            </div>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link " href="blog.html">Download</a>
+                           <a class="nav-link " href="<?= base_url('/kumpulan')?>">Download</a>
                         </li>
                      </ul>
                   </div>
@@ -62,11 +64,9 @@
             <div class="container-fluid">
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
-                  <ul>
-                     <!-- <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> -->
-                     <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
-                     <div class="dropdown">
+               <ul>
+                     <li><a href="<?= base_url('/')?>">Home</a></li>
+                        <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -74,7 +74,7 @@
                               <a href="<?= base_url('digital') ?>">Digital</a>
                            </div>
                            </div>
-                     <li><a href="contact.html">Download</a></li> 
+                     <li><a href="<?= base_url('/kumpulan')?>">Download</a></li> 
                   </ul>
                </div>
             </div>
@@ -108,8 +108,17 @@
                      <div><img src="images/e-Voting-1.png" class="services_img"></div>
                     </div>
                      <div class="col-md-4">
-                        <p class="services_text">Sistem Electronic Voting (e-Voting) adalah sebuah sistem yang memanfaatkan perangkat elektronik dan mengolah informasi digital untuk membuat surat suara, memberikan suara, menghitung perolehan suara, mengirim hasil perolehan suara, menayang kan perolehan suara, memelihara dan menghasilkan perhitungan suara.
+                        <p class="services_text">Sistem Electronic Voting (e-Voting) adalah sebuah sistem yang memanfaatkan perangkat elektronik dan mengolah informasi digital untuk membuat surat suara, memberikan suara, menghitung perolehan suara, mengirim hasil perolehan suara, menayang kan perolehan suara, memelihara dan menghasilkan perhitungan suara.</p>
 
-Keuntungan yang didapat adalah paperless, meminimalisir kecurangan dan real time result. Dilengkapi dengan sistem anti hack sehingga aman dan terpercaya.</p>
+                        <p class="services_text">Keuntungan yang didapat adalah paperless, meminimalisir kecurangan dan real time result. Dilengkapi dengan sistem anti hack sehingga aman dan terpercaya.</p>
                         </div>
                   <div class="col-md-2"></div>
+
+                   <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+<!-- Full width -->
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>

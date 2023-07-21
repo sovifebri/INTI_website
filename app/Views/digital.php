@@ -43,18 +43,19 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                           <a class="nav-link" href="index.html">Home</a>
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                           <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
+                        </li>  
+                     <button class="dropbtn">Products</button>
+                           <div class="dropdown-content">
+                              <a class="nav-link" href="<?= base_url('manufacture')?>">Manufacture</a>
+                              <a class="nav-link" href="<?= base_url('system')?>">System Integrator</a>
+                              <a class="nav-link" href="<?= base_url('digital')?>">Digital</a>
+                           </div>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="<?= base_url('news') ?>">Artikel</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="blog.html">Download</a>
+                           <a class="nav-link " href="<?= base_url('/kumpulan')?>">Download</a>
                         </li>
                      </ul>
                   </div>
@@ -64,36 +65,34 @@
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
                   <ul>
-                     <!-- <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> -->
-                     <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
-                     <div class="dropdown">
+                  <li><a href="<?= base_url('/')?>">Home</a></li>
+                  <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
-                              <a href="#">System Integrator</a>
+                              <a href="<?= base_url('system') ?>">System Integrator</a>
                               <a href="<?= base_url('digital') ?>">Digital</a>
                            </div>
                            </div>
-                     <li><a href="contact.html">Download</a></li> 
+                     <li><a href="<?= base_url('/kumpulan')?>">Download</a></li> 
                   </ul>
                </div>
             </div>
          </div>
          <!-- banner section start -->
          <!-- <div class="banner_section layout_padding"> -->
-            <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="container">
-                        <h1 class="banner_taital">Code</h1>
-                        <p class="banner_text">A lot of products we have. So check it out</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div> -->
-                     <!-- </div>
+                        <!-- <h1 class="banner_taital">Code</h1>
+                        <p class="banner_text">A lot of products we have. So check it out</p> -->
+                        <!-- <div class="read_bt"><a href="#">Get A Quote</a></div> -->
+                     </div>
                   </div>
                   </div>
                </div>
-            </div> -->
+            </div>
          <!-- </div> -->
          <!-- banner section end -->
       </div>
@@ -101,100 +100,39 @@
       <!-- services section start -->
       <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital">Digital</h1>
+            <h1 class="services_taital">Our Products </h1>
             <!-- <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p> -->
             <div class="services_section_2">
                <div class="row g-md-8 justify-content-center align-items-center">
                   <div class="col-md-4">
-                     <div><img src="images/e-Voting-1.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">E-Voting</a></div>
+                     <div><img src="images/e-Voting-1.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('voting') ?>">E-Voting</a></div>
                   </div>
-                  <div class="col-md-2"></div>
+                  <!-- <div class="col-md-2"></div> -->
                   <div class="col-md-4">
-                     <div><img src="images/SIMDES-Sistem-Informasi-Manajemen-Desa.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">SIMDES</a></div>
+                     <div><img src="images/SIMDES-Sistem-Informasi-Manajemen-Desa.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('simdes') ?>">SIMDES</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Content-Filtering.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('cyber') ?>">Cyber Security</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Smart-Hospital-Management-System-5.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('hospital') ?>">Smart Hospital</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/BIG-Data-Analytics.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('big') ?>">Big Data Analytics</a></div>
                   </div>
                </div>
                <div class="row gy-md-5"></div>
                <div class="row justify-content-center align-items-center">
-                  <div class="col-md-4">
-                     <div><img src="images/Content-Filtering.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Cyber Security</a></div>
-                  </div>
-                  <div class="col-md-2"></div>
-                  <div class="col-md-4">
-                     <div><img src="images/Smart-Hospital-Management-System-5.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Smart Hospital</a></div>
-                  </div>
-                  <div class="col-md-4">
-                     <div><img src="images/BIG-Data-Analytics.jpg" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Big Data</a></div>
-                  </div>
+                  <!-- <div class="col-md-2"></div> -->
                </div>
             </div>
          </div>
       </div>
-      <!-- services section end -->
-      <!-- about section start -->
-      <!-- <div class="about_section layout_padding">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="about_taital_main">
-                     <h1 class="about_taital">About Us</h1>
-                     <p class="about_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
-                     <div class="readmore_bt"><a href="#">Read More</a></div>
-                  </div>
-               </div>
-               <div class="col-md-6 padding_right_0">
-                  <div><img src="images/about-img.png" class="about_img"></div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- about section end -->
-      <!-- blog section start -->
-      <!-- <div class="blog_section layout_padding">
-         <div class="container">
-            <h1 class="blog_taital">See Our  Video</h1>
-            <p class="blog_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which</p>
-            <div class="play_icon_main">
-               <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
-            </div>
-         </div>
-      </div> -->
-      <!-- blog section end -->
-      <!-- client section start -->
-
-      <!-- client section start -->
-      <!-- choose section start -->
-      <!-- <div class="choose_section layout_padding">
-         <div class="container">
-            <h1 class="choose_taital">Why Choose Us</h1>
-            <p class="choose_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
-            <div class="read_bt_1"><a href="#">Read More</a></div>
-            <div class="newsletter_box">
-               <h1 class="let_text">Let Start Talk with Us</h1>
-               <div class="getquote_bt"><a href="#">Get A Quote</a></div>
-            </div>
-         </div>
-      </div> -->
-      <!-- choose section end -->
-      <!-- footer section start -->
-      <!-- <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="input_btn_main">
-               <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-               <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            </div>
-            <div class="location_main">
-               <div class="call_text"><img src="images/call-icon.png"></div>
-               <div class="call_text"><a href="#">Call +01 1234567890</a></div>
-               <div class="call_text"><img src="images/mail-icon.png"></div>
-               <div class="call_text"><a href="#">demo@gmail.com</a></div>
-            </div>
-         </div>
-      </div> -->
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">

@@ -507,9 +507,11 @@ button {
 }
 
 .services_text {
-    width: 100%;
+    width: 140%;
+    text-align: justify;
+    text-justify: inter-word;
     float: left;
-    font-size: 16px;
+    font-size: 15px;
     color: #1f1f1f;
     margin: 0px;
 }

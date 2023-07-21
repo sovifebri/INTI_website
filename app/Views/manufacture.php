@@ -45,7 +45,9 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                      <ul class="navbar-nav">
                         <li class="nav-item">
-                        <button class="dropbtn">Products</button>
+                           <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
+                        </li>  
+                     <button class="dropbtn">Products</button>
                            <div class="dropdown-content">
                               <a class="nav-link" href="<?= base_url('manufacture')?>">Manufacture</a>
                               <a class="nav-link" href="<?= base_url('system')?>">System Integrator</a>
@@ -53,7 +55,7 @@
                            </div>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link " href="blog.html">Download</a>
+                           <a class="nav-link " href="<?= base_url('/kumpulan')?>">Download</a>
                         </li>
                      </ul>
                   </div>
@@ -63,10 +65,8 @@
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
                   <ul>
-                     <!-- <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> -->
-                     <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
-                     <div class="dropdown">
+                  <li><a href="<?= base_url('/')?>">Home</a></li>
+                  <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -74,7 +74,7 @@
                               <a href="<?= base_url('digital') ?>">Digital</a>
                            </div>
                            </div>
-                     <li><a href="contact.html">Download</a></li> 
+                     <li><a href="<?= base_url('/kumpulan')?>">Download</a></li> 
                   </ul>
                </div>
             </div>
@@ -119,23 +119,23 @@
                   </div>
                   <div class="col-md-4">
                      <div><img src="images/STB_2-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">STB</a></div>
+                     <div class="btn_main"><a href="<?= base_url('intidvbt') ?>">INTI DVBT2</a></div>
                   </div>
                   <div class="col-md-4">
                      <div><img src="images/Identik-DL02-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Identik</a></div>
+                     <div class="btn_main"><a href="<?= base_url('identik') ?>">Identik DL02</a></div>
                   </div>
                   <div class="col-md-4">
                      <div><img src="images/INTI-CPTZ-Type-2.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">INTI-CPTZ-T2 (SURVEILLANCE CAMERA)</a></div>
-                  </div>
-                  <div class="col-md-4">
-                     <div><img src="images/INTI-CPTZ-TYPE-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">INTI-CPTZ-T1 (SURVEILLANCE CAMERA)</a></div>
+                     <div class="btn_main"><a href="<?= base_url('') ?>">INTI-CPTZ-T2 </a></div>
                   </div>
                   <div class="col-md-4">
                      <div><img src="images/INTI-CAM77D-T1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">INTI-CAM77D-T2 (SURVEILLANCE CAMERA)</a></div>
+                     <div class="btn_main"><a href="<?= base_url('') ?>">INTI-CPTZ-T1</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/INTI-CPTZ-TYPE-1.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('inticam') ?>">INTI-CAM77D-T2</a></div>
                   </div>
                </div>
                <div class="row gy-md-5"></div>

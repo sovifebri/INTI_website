@@ -64,7 +64,12 @@
             <div class="container-fluid">
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
-               <ul>
+                  <ul>
+                     <!-- <li class="active"><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li> -->
+                     <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
+                     <div class="menu_main">
+                  <ul>
                   <li><a href="<?= base_url('/')?>">Home</a></li>
                   <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
@@ -97,17 +102,76 @@
          <!-- banner section end -->
       </div>
       <!-- header section end -->
-       <!-- services section start -->
-       <div class="services_section layout_padding">
+      <!-- services section start -->
+      <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital">INTI CHROMEBOOK </h1>
+            <h1 class="services_taital">Our Products </h1>
             <!-- <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p> -->
             <div class="services_section_2">
-               <div class="row g-md-8 justify-content">
+               <div class="row g-md-8 justify-content-center align-items-center">
                   <div class="col-md-4">
-                     <div><img src="images/INTI-CROMEBOOK-1.png" class="services_img"></div>
-                    </div>
-                     <div class="col-md-4">
-                        <p class="services_text">INTICHROMEBOOK dirancang untuk membantu Anda menyelesaikan berbagai aktivitas dengan lebih cepat dan lebih mudah. Chromebook menjalankan ChromeOS, sistem operasi dengan penyimpanan cloud, memiliki fitur bawaan terbaik dari Google, serta keamanan berlapis.</p>
-                        </div>
-                  <div class="col-md-2"></div>
+                     <div><img src="images/Repair-Maintenance-1.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('repair') ?>">REPAIR & MAINTENANCE</a></div>
+                  </div>
+                  <!-- <div class="col-md-2"></div> -->
+                  <div class="col-md-4">
+                     <div><img src="images/PJU-Pinter-2.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('pju_pinter') ?>">PJU PINTER</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Solar-Cell-System-1.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('solar_system') ?>">SOLAR CELL SYSTEM</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Fiber-To-The-Home-5.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('fiber') ?>">FIBER TO THE HOME</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Seat-Management.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('seat') ?>">Seat Management</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Spare-Part-Management-system.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('spare') ?>">SPARE PART MANAGEMENT SYSTEM</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div><img src="images/Shared-Service-Operation.png" class="services_img"></div>
+                     <div class="btn_main"><a href="<?= base_url('shared') ?>">SHARED SERVICE OPERATION</a></div>
+                  </div>
+               </div>
+               <div class="row gy-md-5"></div>
+               <div class="row justify-content-center align-items-center">
+                  <!-- <div class="col-md-2"></div> -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+         <div class="social_icon">
+               <ul>
+                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                  <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+   </body>
+</html>
