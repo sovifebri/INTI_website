@@ -43,8 +43,10 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                         <li class="nav-item">
+                           <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
+                        </li>  
                         <button class="dropbtn">Products</button>
                            <div class="dropdown-content">
                               <a class="nav-link" href="<?= base_url('manufacture')?>">Manufacture</a>
@@ -53,7 +55,7 @@
                            </div>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link " href="blog.html">Download</a>
+                           <a class="nav-link " href="<?= base_url('/kumpulan')?>">Download</a>
                         </li>
                      </ul>
                   </div>
@@ -62,11 +64,9 @@
             <div class="container-fluid">
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
-                  <ul>
-                     <!-- <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> -->
-                     <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
-                     <div class="dropdown">
+               <ul>
+                     <li><a href="<?= base_url('/')?>">Home</a></li>
+                        <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -74,7 +74,7 @@
                               <a href="<?= base_url('digital') ?>">Digital</a>
                            </div>
                            </div>
-                     <li><a href="contact.html">Download</a></li> 
+                     <li><a href="<?= base_url('/kumpulan')?>">Download</a></li> 
                   </ul>
                </div>
             </div>

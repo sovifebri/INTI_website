@@ -43,7 +43,7 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                         <li class="nav-item">
                            <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
                         </li>  
@@ -64,9 +64,9 @@
             <div class="container-fluid">
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
-               <ul>
-                  <li><a href="<?= base_url('/')?>">Home</a></li>
-                  <div class="dropdown">
+                  <ul>
+                     <li><a href="<?= base_url('/')?>">Home</a></li>
+                        <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -100,14 +100,25 @@
        <!-- services section start -->
        <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital">INTI CHROMEBOOK </h1>
+            <h1 class="services_taital">INTI DVBT2 </h1>
             <!-- <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p> -->
             <div class="services_section_2">
                <div class="row g-md-8 justify-content">
                   <div class="col-md-4">
-                     <div><img src="images/INTI-CROMEBOOK-1.png" class="services_img"></div>
+                     <div><img src="images/STB_2-1.png" class="services_img"></div>
                     </div>
                      <div class="col-md-4">
-                        <p class="services_text">INTICHROMEBOOK dirancang untuk membantu Anda menyelesaikan berbagai aktivitas dengan lebih cepat dan lebih mudah. Chromebook menjalankan ChromeOS, sistem operasi dengan penyimpanan cloud, memiliki fitur bawaan terbaik dari Google, serta keamanan berlapis.</p>
+                        <p class="services_text">INTI DVBT2 merupakan perangkat penerima siaran digital berbasis teknologi DVB-T2 yang merupakan standard Digital Video Broadcasting Terrestrial generasi kedua dan ditambahkan fitur EWS (Early Warning System).
+
+                        INTI DVBT2 hadir sebagai bentuk dukungan industri nasional dalam mendukung program pemerintah mengganti transmisi analog ke digital atau biasa disebut Analog Switch Off (ASO) dan dibuat mengacu pada Peraturan Permen Kominfo No 04 Tahun 2019, tentang “Persyaratan Teknis Alat dan/atau Perangkat Telekomunikasi Untuk Keperluan Penyelenggaraan Televisi Siaran dan Radio Siaran”, dan Permen No 3 Tahun 2014 tentang “ Persyaratan Teknis Sistem Peringatan Dini Bencana Alam Pada Alat dan Perangkat Penerima Televisi Broadcasting Terrestrial-Second Generation”.</p>
                         </div>
                   <div class="col-md-2"></div>
+
+                  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+<!-- Full width -->
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>

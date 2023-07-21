@@ -43,7 +43,7 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                         <li class="nav-item">
                            <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
                         </li>  
@@ -65,8 +65,8 @@
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
                <ul>
-                  <li><a href="<?= base_url('/')?>">Home</a></li>
-                  <div class="dropdown">
+                     <li><a href="<?= base_url('/')?>">Home</a></li>
+                        <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -75,7 +75,7 @@
                            </div>
                            </div>
                      <li><a href="<?= base_url('/kumpulan')?>">Download</a></li> 
-                  </ul>
+                  </ul> 
                </div>
             </div>
          </div>
@@ -100,14 +100,25 @@
        <!-- services section start -->
        <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital">INTI CHROMEBOOK </h1>
+            <h1 class="services_taital">Identik DL02 </h1>
             <!-- <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p> -->
             <div class="services_section_2">
                <div class="row g-md-8 justify-content">
                   <div class="col-md-4">
-                     <div><img src="images/INTI-CROMEBOOK-1.png" class="services_img"></div>
+                     <div><img src="images/Identik-DL02-1.png" class="services_img"></div>
                     </div>
                      <div class="col-md-4">
-                        <p class="services_text">INTICHROMEBOOK dirancang untuk membantu Anda menyelesaikan berbagai aktivitas dengan lebih cepat dan lebih mudah. Chromebook menjalankan ChromeOS, sistem operasi dengan penyimpanan cloud, memiliki fitur bawaan terbaik dari Google, serta keamanan berlapis.</p>
+                        <p class="services_text">Identik DL02 merupakan perangkat pembaca Kartu Tanda Penduduk Elektronik (KTP-el) dengan layar yang masing-masing komponennya terintegrasi dalam satu kesatuan sehingga dapat digunakan secara mandiri tanpa harus terhubung dengan perangkat komputer. Perangkat Identik DL02 dapat di integrasikan dengan sistem eksisting lainnya yang memanfaatkan jaringan ethernet dengan kabel LAN sebagai konektifitasnya.
+
+                        Perangkat Identik DL02 dapat membaca dan menampilkan data KTP-el secara offline karena menggunakan SAM (Secure Access Module) Card dari Dukcapil. Data yang ditampilkan merupakan semua komponen yang terdapat dalam KTP-el seperti biodata, pas foto, dan tanda tangan. Perangkat Identik DL02 dibuat sesuai dengan Peraturan Menteri Dalam Negeri RI No. 76 Tahun 2020 tentang “Perangkat Pembaca Kartu Tanda Penduduk Elektronik”. Solusi penggunaan perangkat Identik DL02 ini dapat di implementasikan dalam banyak hal, seperti: Validasi Kependudukan, Buku Tamu, Registrasi Pelanggan (Bank, Rumah Sakit, Penyedia Layanan Telekomunikasi, Layanan Transportasi, dll), E-voting, Absensi dan lain sebagainya.</p>
                         </div>
                   <div class="col-md-2"></div>
+
+                  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+<!-- Full width -->
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>

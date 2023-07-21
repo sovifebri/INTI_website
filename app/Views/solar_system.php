@@ -43,8 +43,10 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                         <li class="nav-item">
+                           <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
+                        </li>  
                         <button class="dropbtn">Products</button>
                            <div class="dropdown-content">
                               <a class="nav-link" href="<?= base_url('manufacture')?>">Manufacture</a>
@@ -53,7 +55,7 @@
                            </div>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link " href="blog.html">Download</a>
+                           <a class="nav-link " href="<?= base_url('/kumpulan')?>">Download</a>
                         </li>
                      </ul>
                   </div>
@@ -62,11 +64,9 @@
             <div class="container-fluid">
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
-                  <ul>
-                     <!-- <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> -->
-                     <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
-                     <div class="dropdown">
+               <ul>
+                     <li><a href="<?= base_url('/')?>">Home</a></li>
+                        <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -74,7 +74,7 @@
                               <a href="<?= base_url('digital') ?>">Digital</a>
                            </div>
                            </div>
-                     <li><a href="contact.html">Download</a></li> 
+                     <li><a href="<?= base_url('/kumpulan')?>">Download</a></li> 
                   </ul>
                </div>
             </div>
@@ -105,16 +105,24 @@
             <div class="services_section_2">
                <div class="row g-md-8 justify-content">
                   <div class="col-md-4">
-                     <div><img src="Solar-Cell-System-1.png" class="services_img"></div>
+                     <div><img src="images/Solar-Cell-System-1.png" class="services_img"></div>
                     </div>
                      <div class="col-md-4">
-                        <p class="services_text">Pembangkit listrik tenaga surya atau PLTS adalah pembangkit listrik yang mengubah energi surya menjadi energi listrik. Fotovoltaik mengubah secara langsung energi cahaya menjadi listrik menggunakan efek fotoelektrik.
+                        <p class="services_text">Pembangkit listrik tenaga surya atau PLTS adalah pembangkit listrik yang mengubah energi surya menjadi energi listrik. Fotovoltaik mengubah secara langsung energi cahaya menjadi listrik menggunakan efek foto elektrik.
 
-Pembangkit listrik tenaga surya (Fotovoltaik) terdiri dari beberapa komponen supaya berfungsi sesuai dengan yang dibutuhkan. Komponen utama secara umum terdiri dari :
-
-Solar Panel
-Inverter
-Baterai
-Solar Panel (Fotovoltaik) merupakan komponen utama dalam PLTS, berfungsi untuk mengubah energi cahaya matahari menjadi energi listrik DC. Inverter merupakan pengubah tegangan searah (DC) dari Solar Panel menjadi tegangan bolak-balik (AC) untuk mensuplai listrik ke pengguna.</p>
+                        Pembangkit listrik tenaga surya (Fotovoltaik) terdiri dari beberapa komponen supaya berfungsi sesuai dengan yang dibutuhkan. Komponen utama secara umum terdiri dari :</p>
+                        <p>+  Solar Panel</p>
+                        <p>+ Inverter</p>
+                        <p>+ Baterai</p>
+                        <p class="services_text"> Panel (Fotovoltaik) merupakan komponen utama dalam PLTS, berfungsi untuk mengubah energi cahaya matahari menjadi energi listrik DC. Inverter merupakan pengubah tegangan searah (DC) dari Solar Panel menjadi tegangan bolak-balik (AC) untuk mensuplai listrik ke pengguna.</p>
                         </div>
                   <div class="col-md-2"></div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+<!-- Full width -->
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>

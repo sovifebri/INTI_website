@@ -48,7 +48,7 @@
                         <button class="dropbtn">Products</button>
                            <div class="dropdown-content">
                               <a class="nav-link" href="<?= base_url('manufacture')?>">Manufacture</a>
-                              <a class="nav-link" href="<?= base_url('systemin')?>">System Integrator</a>
+                              <a class="nav-link" href="<?= base_url('system')?>">System Integrator</a>
                               <a class="nav-link" href="<?= base_url('digital')?>">Digital</a>
                            </div>
                         </li>
@@ -63,14 +63,14 @@
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
                   <ul>
-                     <!-- <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> -->
+                     <li class="active"><a href="<?= base_url('')?>">Home</a></li>
+                     <!-- <li><a href="about.html">About</a></li> -->
                      <!-- <li><a href="<?= base_url('news') ?>">Products</a></li>  -->
                      <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
-                              <a href="<?= base_url('systemin') ?>">System Integrator</a>
+                              <a href="<?= base_url('system') ?>">System Integrator</a>
                               <a href="<?= base_url('digital') ?>">Digital</a>
                            </div>
                            </div>
@@ -106,19 +106,19 @@
                <div class="row g-md-8 justify-content-center align-items-center">
                   <div class="col-md-4">
                      <div><img src="images/INTIBOOK-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Manufacture</a></div>
+                     <div class="btn_main"><a href="manufacture">Manufacture</a></div>
                   </div>
                </div>
                <div class="row gy-md-5"></div>
                <div class="row justify-content-center align-items-center">
                   <div class="col-md-4">
-                     <div><img src="images/INTI-CPTZ-Type-2.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">System Integrator</a></div>
+                     <div><img src="images/Fiber-To-the-Home-5.png" class="services_img"></div>
+                     <div class="btn_main"><a href="system">System Integrator</a></div>
                   </div>
                   <!-- <div class="col-md-2"></div> -->
                   <div class="col-md-4">
-                     <div><img src="images/INTI-CROMEBOOK-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Digital</a></div>
+                     <div><img src="images/Content-Filtering.png" class="services_img"></div>
+                     <div class="btn_main"><a href="digital">Digital</a></div>
                   </div>
                </div>
             </div>
@@ -255,11 +255,11 @@
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-         <div class="logo"><img src="images/logo1.png"></a></div>
+         <div class="footer_logo"><img src="images/logo1.png"></a></div>
          <div class="services_section_2">
                <div class="row g-md-8 justify-content-center align-items-center">
                   <div class="col-md-4">
-                     <p class="copyright_text"> Jl. Moch. Toha No. 77 Bandung 40253
+                     <p class="footer_text"> Jl. Moch. Toha No. 77 Bandung 40253
                                                 Phone : (+62-22) 5201501
                                                 Fax : (+62-22) 5202444
                                                 E-mail : info@inti.co.id</p>

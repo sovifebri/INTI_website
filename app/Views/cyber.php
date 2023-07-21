@@ -43,7 +43,7 @@
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                         <li class="nav-item">
                            <a class="nav-link " href="<?= base_url('/welcome_message')?>">Home</a>
                         </li>  
@@ -65,8 +65,8 @@
                <div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
                <div class="menu_main">
                <ul>
-                  <li><a href="<?= base_url('/')?>">Home</a></li>
-                  <div class="dropdown">
+                     <li><a href="<?= base_url('/')?>">Home</a></li>
+                        <div class="dropdown">
                         <li><button class="dropbtn">Products</button></li>
                            <div class="dropdown-content">
                               <a href="<?= base_url('manufacture') ?>">Manufacture</a>
@@ -100,14 +100,34 @@
        <!-- services section start -->
        <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital">INTI CHROMEBOOK </h1>
+            <h1 class="services_taital">Cyber Security</h1>
             <!-- <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p> -->
             <div class="services_section_2">
                <div class="row g-md-8 justify-content">
                   <div class="col-md-4">
-                     <div><img src="images/INTI-CROMEBOOK-1.png" class="services_img"></div>
+                     <div><img src="images/Content-Filtering.png" class="services_img"></div>
                     </div>
                      <div class="col-md-4">
-                        <p class="services_text">INTICHROMEBOOK dirancang untuk membantu Anda menyelesaikan berbagai aktivitas dengan lebih cepat dan lebih mudah. Chromebook menjalankan ChromeOS, sistem operasi dengan penyimpanan cloud, memiliki fitur bawaan terbaik dari Google, serta keamanan berlapis.</p>
+                        <p class="services_text">Cyber Security adalah praktik keamanan komputer, server, perangkat seluler, sistem elektronik, jaringan, dan data dari serangan jahat. Ini juga dikenal sebagai keamanan teknologi informasi atau keamanan informasi elektronik. Istilah ini berlaku dalam berbagai konteks, dari bisnis ke komputasi mobile, dan dapat dibagi menjadi beberapa kategori umum.</p>
+                        <p class="services_text">Proyek yang mengadopsi sistem Keamanan Dunia Maya meliputi Penyaringan Konten dan Sistem Manajemen Senjata INTI.</p>
+
+                        <strong>CONTENT FILTERING</strong>
+                        <p class="services_text">Content Filtering adalah sebuah solusi yang terdiri dari sistem pemantauan proaktif & sistem pusat kendali.</p>
+                        <p class="services_text">Sistem pemantauan proaktif terdiri dari perangkat lunak yang berfungsi untuk melakukan penelusuran, pengambilan, pencacahan, serta penggalian dan analisis terhadap berbagai jenis publik konten yang ada di Internet. Keluaran perangkat lunak tersebut akan menjadi basis bagi proses pemantauan proaktif secara berkelanjutan, serta untuk melakukan tindakan penanganan, baik secara teknologi, administrasi, maupun penegakan peraturan perundangan yang ada.</p>
+                        <p class="services_text">Sedangkan sistem pusat kendali merupakan tempat dimana tim management dan tim kendali melakukan koordinasi, mengambil keputusan, dan memberikan perintah-perintah terkait dengan pengoperasian sistem yang dimonitor. Pengambilan tindakan tidak terbatas pada saat terjadinya insiden terkait sistem, tetapi juga untuk melakukan tindakan-tindakan lain yang dianggap perlu seperti pemutakhiran sistem, monitoring, dan lainnya. Tujuan dari pusat kendali ini adalah untuk mengumpulkan dan memproses semua informasi yang dibutuhkan untuk menangani insiden secara cepat dan efektif.</p>
+                        <p class="services_text">Portofolio Bisnis : Pengadaan Pemantauan Proaktif & Pusat Kendali (Content Filtering) di Kominfo.</p>
+
+                        <b>I-WMS (INTI WEAPON MANAGEMENT SYSTEM)</b>
+                        <p class="services_text">i-WMS (INTI Weapon Management System) adalah sebuah sistem yang terdiri dari RFID Tag dan RFID Reader dimana RFID Tag ditanam di bagian senjata secara permanen dan tidak mudah dilepas yang berfungsi sebagai identitas senjata dan dapat dibaca oleh Reader dengan menggunakan teknologi gelombang Radio (RF), kemudian data identitas hasil pembacaan tersebut diolah oleh sistem aplikasi sehingga menghasilkan informasi yang sesuai dengan keinginan pengguna.</p>
+                        
                         </div>
                   <div class="col-md-2"></div>
+
+                  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+<!-- Full width -->
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
